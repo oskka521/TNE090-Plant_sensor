@@ -1,2 +1,4 @@
 # TNE090-Plant_sensor
-A project in Sensor Network using a CC1310. The Project monitor a plants humidity
+By using the Texas Instruments embedded device, CC1310 to autonomously water and monitoring a plant. CC1310 is microcontroller equipped with a Sub-1GHz antenna, which offers more range the conventual 2.4 GHz (Wi-Fi). The Sub 1Ghz wireless transmission offers 1.5-2 times more distance coverage than the 2.4Ghz spectrum and can cover a range of more than 100km if needed2.
+Together with Code Composer Studio (CCS) and the CC1310 we utilize preexisting code for transmitting and receiving data. This is then used and modified to fit the application’s need.
+The sensor in this project should monitor the humidity in the soil and transmit it to a second device, the collector. Then if wanted, the collector be physically connected to a computer which runs a GUI which displays the sensor value (Python based). Also, if the humidity reaches below a fixed value, the sensor should automatically water the plant.
